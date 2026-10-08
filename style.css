@@ -110,7 +110,7 @@ nav a:hover {
 .search a {
     background: #287df5;
     color: white;
-    padding: 13px 35px;
+    padding: 13px;
     border-radius: 8px;
 }
 
@@ -118,7 +118,7 @@ nav a:hover {
 /* SECTIONS */
 
 .section {
-    padding: 25px 5%;
+    padding: 25px;
 }
 
 .title {
@@ -145,27 +145,6 @@ nav a:hover {
     border-radius: 10px;
     background: #eaf4ff;
 }
-
-.services a:nth-child(1) {
-    background: #fff5dc;
-}
-
-.services a:nth-child(3) {
-    background: #e8fff0;
-}
-
-.services a:nth-child(4) {
-    background: #f0ecff;
-}
-
-.services a:nth-child(5) {
-    background: #fff0f1;
-}
-
-.services a:nth-child(6) {
-    background: #e8fbfb;
-}
-
 .services b {
     font-size: 28px;
 }
@@ -215,10 +194,6 @@ nav a:hover {
     font-size: 13px;
 }
 
-.rating small {
-    color: #777;
-}
-
 .bottom {
     display: flex;
     justify-content: space-between;
@@ -254,9 +229,6 @@ nav a:hover {
     border-right: 1px solid #ccd9e8;
 }
 
-.features div:last-child {
-    border: none;
-}
 
 .features h3 {
     font-size: 13px;
