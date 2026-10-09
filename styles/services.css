@@ -8,14 +8,19 @@ body {
     font-family: Arial, sans-serif;
     background: #f4f7fb;
     color: #172033;
+    padding: 0px 3%;
 }
 
 header {
     background: white;
-    padding: 18px 6%;
+    padding: 0px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header span{
+    color: #146bea;
 }
 
 header h2 {
@@ -53,7 +58,7 @@ button {
     margin-bottom: 8px;
 }
 
-.services > p {
+.services p {
     color: #687386;
     margin-bottom: 30px;
 }
@@ -103,19 +108,3 @@ button {
     color: #146bea;
 }
 
-@media (max-width: 700px) {
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav {
-        gap: 10px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .services-container {
-        grid-template-columns: 1fr 1fr;
-    }
-}
