@@ -13,10 +13,14 @@ body {
 
 header {
     background: white;
-    padding: 0px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 header span{
@@ -38,6 +42,9 @@ nav a {
     color: #172033;
     font-size: 14px;
 }
+nav a:hover{
+color:blue;
+}
 
 button {
     border: none;
@@ -54,6 +61,10 @@ button {
     padding: 0 20px;
 }
 
+.service-card b{
+    font-size: 30px;
+}
+
 .services h1 {
     margin-bottom: 8px;
 }
@@ -63,20 +74,21 @@ button {
     margin-bottom: 30px;
 }
 
-.services-container {
+.service-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-
-.service-card {
+.card{
     background: white;
-    padding: 25px;
-    text-align: center;
-    border-radius: 8px;
-    border: 1px solid #e1e6ee;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
 }
-
+.card:hover{
+    transform: translateY(-5px);
+}
 .service-card span {
     font-size: 30px;
 }
@@ -100,7 +112,7 @@ button {
 }
 
 .help p {
-    margin: 8px 0 18px;
+    margin: 8px 18px;
 }
 
 .help button {
