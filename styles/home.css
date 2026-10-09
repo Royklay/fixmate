@@ -67,7 +67,7 @@ nav a:hover {
     display: flex;
     align-items: center;
 
-    background:url("images/hero.jpeg");
+    background-image:url("../images/hero.jpeg");
 
     background-size: cover;
     background-position: center;
@@ -98,6 +98,7 @@ nav a:hover {
     padding: 5px;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
 }
 
 .search input {
@@ -170,6 +171,10 @@ nav a:hover {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
 }
 
 .card img {
@@ -208,7 +213,7 @@ nav a:hover {
 .bottom a {
     background: #287df5;
     color: white;
-    padding: 8px 25px;
+    padding:8px;
     border-radius: 6px;
     font-size: 12px;
 }
@@ -220,13 +225,13 @@ nav a:hover {
     background: #eaf4ff;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 20px 5%;
+    padding: 20px;
     text-align: center;
 }
 
 .features div {
     padding: 10px;
-    border-right: 1px solid #ccd9e8;
+    border-right: 1px solid #101010;
 }
 
 
@@ -239,27 +244,6 @@ nav a:hover {
     font-size: 11px;
     color: #64748b;
 }
-
-
-/* SIMPLE RESPONSIVE */
-
-@media (max-width: 900px) {
-
-    nav {
-        gap: 15px;
-    }
-
-    .services {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .professionals {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-
 
 
 
