@@ -58,3 +58,43 @@ nav a:hover {
     padding: 12px 22px;
     border-radius: 25px;
 }
+
+/* main */
+.providers{
+    padding: 30px;
+    background: #f5f7fb;
+}
+
+.providers h2{
+    margin-bottom: 5px;
+    color: #172b4d;
+    font-size: 30px;
+}
+
+.providers p{
+    color:#666;
+    margin-bottom: 20px;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.search input,
+.search select{
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1;
+}
+
+.search button{
+    background: #1769ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
