@@ -126,16 +126,3 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
-    .profile-info {
-        flex-wrap: wrap;
-    }
-
-    .profile-buttons {
-        margin-left: 0;
-    }
-
-    .profile-content {
-        grid-template-columns: 1fr;
-    }
-}
