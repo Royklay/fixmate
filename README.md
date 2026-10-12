@@ -1,6 +1,6 @@
 # FixMate — Find Help. Fix It. Move On.
 
-**Live Link:** [View FixMate](PASTE_YOUR_LIVE_LINK_HERE)
+**Live Link:**https://royklay.github.io/fixmate/
 
 ## Overview
 
