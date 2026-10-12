@@ -97,7 +97,7 @@ nav a:hover {
     border-radius: 6px;
     padding: 12px 20px;
     cursor: pointer;
-}g
+}
 
 .providers-list{
     display: grid;
@@ -164,7 +164,7 @@ margin-bottom: 10px;
     cursor: pointer;
 }
 
-a {
+.provider-charges a{
     background: #1769ff;
     color: white;
     border-radius: 6px;
