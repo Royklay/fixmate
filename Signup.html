@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
+    <link rel="stylesheet" href="styles/signup.css">
 </head>
 <body>
     <header>
@@ -38,7 +39,63 @@
 
     <section class="signupform">
         <h3>Create your Account</h3>
+        <p>Choose how you want to get started.</p>
+
+        <div class="twoaccount">
+        <a href="signup.html" class="account">
+            Customer
+            <small>Find and book services</small>
+        </a>
+
+        <a href="proffesional.html" class="account">
+            professional
+            <small>Get more clients</small>
+        </a>
+    </div>
+
+    <form>
+        <input type="text" class="inputpart" placeholder="Full Name" required>
+        <input type="email" class="inputpart" placeholder="Email Address" required>
+        <input type="password" class="inputpart" placeholder="Password">
+
+        <label>
+            <input type="checkbox"required>
+            I agree to the terms and conditions
+        </label>
+
+        <button>Sign Up</button>
+    </form>
     </section>
+
+    <footer class="footer">
+    <div class="footer-content">
+
+        <div class="footer-info">
+            <h2>FixMate</h2>
+            <p>You call. They come.</p>
+            <p>Find trusted professionals right at your door.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Become a Pro</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Account</h3>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="profile.html">Provider Profile</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 FixMate. All rights reserved.</p>
+    </div>
+</footer>
 </main>
 </body>
 </html>
