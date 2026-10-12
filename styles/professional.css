@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f8fc;
+    color: #10233f;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* NAVBAR */
+
+header {
+    height: 80px;
+    background: #101c2d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #287df5;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a:hover {
+    color: #287df5;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.signup {
+    background: #287df5;
+    padding: 12px 22px;
+    border-radius: 25px;
+}
+
