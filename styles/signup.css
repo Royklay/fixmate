@@ -47,13 +47,13 @@ nav a:hover {
     color: #287df5;
 }
 
-.account {
+.nav-account {
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-.signup {
+.nav-signup {
     background: #287df5;
     padding: 12px 22px;
     border-radius: 25px;
