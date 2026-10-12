@@ -59,3 +59,133 @@ nav a:hover {
     border-radius: 25px;
 }
 
+.hero {
+    background-color: #eaf3ff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    color: #1769aa;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #444;
+}
+
+.pricing {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.plan {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    width: 260px;
+    box-shadow: 0 4px 10px #ddd;
+    text-align: left;
+}
+
+.plan h3 {
+    color: #1769aa;
+    text-align: center;
+}
+
+.plan h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.plan small {
+    font-size: 13px;
+}
+
+.plan ul {
+    padding-left: 20px;
+    line-height: 2;
+}
+
+.plan-btn {
+    display: block;
+    background-color: #1769aa;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.plan-btn:hover {
+    background-color: #0d4f85;
+}
+
+.standard {
+    border: 2px solid #1769aa;
+}
+
+.professional {
+    border: 2px solid #1769aa;
+}
+
+.pro-bottom {
+    background-color: #eaf3ff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+.footer {
+    background: #102e55;
+    color: white;
+    padding: 35px 6% 15px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-info h2 {
+    color: #1677ff;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #1677ff;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #49617e;
+    margin-top: 25px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
