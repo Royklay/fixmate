@@ -21,6 +21,49 @@
         <a href="Signup.html" class="signup">Sign Up</a>
     </div>
 </header>
+    <main>
+    <section class="request-section">
 
+        <h1>Request a Service</h1>
+        <p>Tell us what you need help with.</p>
+
+        <form action="confirmation.html" method="get">
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname"
+                   placeholder="Enter your full name" required>
+
+            <label for="service">Service Category</label>
+            <select id="service" name="service" required>
+                <option value="">Choose a service</option>
+                <option value="electrician">Electrician</option>
+                <option value="plumber">Plumber</option>
+                <option value="mechanic">Mechanic</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="location">Your Location</label>
+            <input type="text" id="location" name="location"
+                   placeholder="Enter your location" required>
+
+            <label for="problem">Describe the Problem</label>
+            <textarea id="problem" name="problem"
+                      placeholder="Explain the service you need"
+                      rows="4" required></textarea>
+
+            <label for="urgency">Urgency Level</label>
+            <select id="urgency" name="urgency" required>
+                <option value="">Select urgency</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+
+            <button type="submit">Submit Request</button>
+
+        </form>
+
+    </section>
+</main>
 </body>
 </html>
