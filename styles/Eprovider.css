@@ -222,3 +222,18 @@ margin-bottom: 10px;
     padding-top: 15px;
     font-size: 14px;
 }
+
+@media(max-width: 768px){
+    .providers-list{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:420px){
+    .providers-list{
+        grid-template-columns:1fr ;
+    }
+    .search{
+        padding:25px 5%; 
+    }
+}
