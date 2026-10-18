@@ -223,17 +223,137 @@ margin-bottom: 10px;
     font-size: 14px;
 }
 
-@media(max-width: 768px){
-    .providers-list{
-        grid-template-columns:repeat(2,1fr);
+@media (max-width: 900px) {
+    body {
+        padding: 0 2%;
+    }
+
+    header {
+        height: auto;
+        padding: 18px 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    nav {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .account {
+        gap: 15px;
+    }
+
+    .providers {
+        padding: 20px 10px;
+    }
+
+    .providers-list {
+        grid-template-columns: 1fr;
+    }
+
+    .provider-card {
+        width: 100%;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .provider-info {
+        min-width: 0;
+    }
+
+    .provider-charges {
+        flex-shrink: 0;
     }
 }
 
-@media(max-width:420px){
-    .providers-list{
-        grid-template-columns:1fr ;
+/* Phones */
+@media (max-width: 480px) {
+    body {
+        padding: 0;
     }
-    .search{
-        padding:25px 5%; 
+
+    header {
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    nav {
+        width: 100%;
+        gap: 12px;
+        font-size: 14px;
+    }
+
+    .account {
+        gap: 20px;
+    }
+
+    .providers {
+        padding: 15px 10px;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .search input,
+    .search select,
+    .search button {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .providers-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .provider-card {
+        display: grid;
+        grid-template-columns: 60px minmax(0, 1fr);
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .provider-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .provider-info h3 {
+        font-size: 16px;
+    }
+
+    .provider-charges {
+        grid-column: 2;
+        text-align: left;
+    }
+
+    .provider-charges p {
+        margin-bottom: 12px;
+    }
+
+    .provider-charges a {
+        display: inline-block;
+        padding: 8px 18px;
+    }
+
+    .footer {
+        padding: 25px 15px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 25px;
     }
 }
