@@ -58,3 +58,121 @@ nav a:hover {
     padding: 12px 22px;
     border-radius: 25px;
 }
+
+.howitworks-page {
+    color: #333;
+}
+
+.howitworks-hero {
+    padding: 55px 20px;
+    text-align: center;
+    background-color: #dceeff;
+    color: #234c70;
+}
+
+.howitworks-hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.howitworks-hero p {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.howitworks-steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 45px 8%;
+}
+
+.step-card {
+    padding: 30px;
+    text-align: center;
+    background-color: #f3f8ff;
+    border: 1px solid #d5e7f8;
+    border-radius: 10px;
+}
+
+.step-icon {
+    font-size: 40px;
+    color: #3986c5;
+    margin-bottom: 15px;
+}
+
+.step-card h2 {
+    font-size: 21px;
+    color: #234c70;
+}
+
+.step-card p {
+    line-height: 1.7;
+    color: #555;
+}
+
+
+.professional-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 8%;
+    background-color: #e8f3ff;
+}
+
+.professional-icon {
+    font-size: 65px;
+    color: #3986c5;
+}
+
+.professional-text h2 {
+    color: #234c70;
+}
+
+.professional-text p {
+    line-height: 1.7;
+}
+
+.professional-text a,
+.howitworks-cta a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 22px;
+    background-color: #3986c5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.professional-text a:hover,
+.howitworks-cta a:hover {
+    background-color: #234c70;
+}
+
+.howitworks-cta {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.howitworks-cta h2 {
+    color: #234c70;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .howitworks-steps {
+        grid-template-columns: 1fr;
+        padding: 30px 5%;
+    }
+
+    .professional-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .howitworks-hero h1 {
+        font-size: 28px;
+    }
+}
