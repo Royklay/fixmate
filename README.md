@@ -14,12 +14,17 @@ FixMate also gives professionals an opportunity to reach more customers and grow
 
 - **Home Page:** Introduces FixMate and provides navigation to other pages.
 - **Services Page:** Displays the different services available on the platform.
-- **E-Providers Page:** Helps users explore available service providers.
+- **search Page:** Helps users explore available service providers.
 - **Profile Page:** Displays a professional's information and services.
 - **Sign Up Page:** Provides a registration interface for users.
 - **Professional Page:** Displays pricing plans for professionals who want to use the platform.
 - **Navigation:** Connects the website pages through links and buttons.
-
+- **about page:** Explains and illustrate the description on what the website is about.
+- **how it works page:** Gives the user a step by step instruction on how to use the website.
+- **confirmation page:** Displays a confirmation message when the customer succesfully makes a request.
+- **request page:** Allows the user to make request on services offered.
+- **emergency page:** Help users in emergency situation to get access to services fatser.
+- **login:** Users and professionals who already have an account can login.
 ## Design Structure
 
 FixMate follows a clean, modern, and user-friendly design.
@@ -34,8 +39,7 @@ FixMate follows a clean, modern, and user-friendly design.
 ## Technologies Used
 
 - HTML5 — Structures the website content.
-- CSS3 — Styles the pages, layouts, colors, and elements.
-- Tailwind CSS — Used where applicable for utility-based styling.
+- CSS — Styles the pages, layouts, colors, and elements.
 
 ## Project Structure
 
