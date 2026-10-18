@@ -58,3 +58,183 @@ nav a:hover {
     padding: 12px 22px;
     border-radius: 25px;
 }
+.emergency-page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.emergency-hero {
+    background: 
+    url("../images/emergency.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 35px;
+    border-radius: 12px;
+    color: white;
+}
+
+.emergency-heading {
+    max-width: 450px;
+}
+
+.emergency-heading i {
+    font-size: 32px;
+    color: #3986ff;
+    margin-bottom: 12px;
+}
+
+.emergency-heading h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.emergency-heading p {
+    line-height: 1.6;
+}
+
+.emergency-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.emergency-form,
+.emergency-benefits {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.emergency-form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.emergency-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.emergency-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 25px 10px;
+    border: 1px solid #dce5ef;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.emergency-card input {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    accent-color: #176bff;
+}
+
+.emergency-card i {
+    font-size: 25px;
+    color: #176bff;
+}
+
+.emergency-card span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.emergency-card:has(input:checked) {
+    border: 2px solid #176bff;
+    background-color: #eef5ff;
+}
+
+.continue-btn {
+    width: 100%;
+    padding: 14px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 7px;
+    background-color: #176bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.continue-btn:hover {
+    background-color: #0754d6;
+}
+
+.emergency-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.benefit i {
+    color: #176bff;
+    font-size: 23px;
+}
+
+.benefit h3 {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.benefit p {
+    font-size: 14px;
+    color: #65758b;
+    line-height: 1.5;
+}
+
+/* Tablet screens */
+@media (max-width: 768px) {
+    .emergency-content {
+        grid-template-columns: 1fr;
+    }
+
+    .emergency-options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    .emergency-page {
+        width: 94%;
+        margin: 15px auto;
+    }
+
+    .emergency-hero {
+        padding: 30px 20px;
+    }
+
+    .emergency-heading h1 {
+        font-size: 25px;
+    }
+
+    .emergency-form,
+    .emergency-benefits {
+        padding: 18px;
+    }
+
+    .emergency-options {
+        gap: 10px;
+    }
+
+    .emergency-card {
+        padding: 22px 5px;
+    }
+}

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency</title>
     <link rel="stylesheet" href="styles/emergency.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header>
@@ -21,5 +23,113 @@
         <a href="Signup.html" class="signup">Sign Up</a>
     </div>
 </header>
+<main class="emergency-page">
+
+        <section class="emergency-hero">
+            <div class="emergency-heading">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+                <h1>Need Help Now?</h1>
+
+                <p>
+                    Tell us what you need and we'll connect you
+                    with available professionals near you.
+                </p>
+            </div>
+        </section>
+
+        <section class="emergency-content">
+
+            <div class="emergency-form">
+
+                <h2>What type of help do you need?</h2>
+
+                <form action="request.html" method="get">
+
+                    <div class="emergency-options">
+
+                        <label class="emergency-card">
+                            <input type="radio" name="problem"
+                            value="Flat Tyre" required>
+                            <i class="fa-solid fa-car"></i>
+                            <span>Flat Tyre</span>
+                        </label>
+
+                        <label class="emergency-card">
+                            <input type="radio" name="problem"
+                            value="Dead Battery">
+                            <i class="fa-solid fa-car-battery"></i>
+                            <span>Dead Battery</span>
+                        </label>
+
+                        <label class="emergency-card">
+                            <input type="radio" name="problem"
+                            value="Electrical Issue">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>Electrical Issue</span>
+                        </label>
+
+                        <label class="emergency-card">
+                            <input type="radio" name="problem"
+                            value="Water Leak">
+                            <i class="fa-solid fa-faucet"></i>
+                            <span>Water Leak</span>
+                        </label>
+
+                        <label class="emergency-card">
+                            <input type="radio" name="problem"
+                            value="Locked Out">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>Locked Out</span>
+                        </label>
+
+                        <label class="emergency-card">
+                            <input type="radio" name="problem"
+                            value="Other">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <span>Other</span>
+                        </label>
+
+                    </div>
+
+                    <button type="submit" class="continue-btn">
+                        Continue
+                    </button>
+
+                </form>
+            </div>
+
+            <div class="emergency-benefits">
+
+                <div class="benefit">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h3>Fast Response</h3>
+                        <p>Find help for your problem quickly.</p>
+                    </div>
+                </div>
+
+                <div class="benefit">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h3>Nearby Professionals</h3>
+                        <p>Find professionals serving your area.</p>
+                    </div>
+                </div>
+
+                <div class="benefit">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <div>
+                        <h3>Track Your Request</h3>
+                        <p>Keep track of your service request.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
 </body>
 </html>
