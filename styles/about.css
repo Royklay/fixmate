@@ -67,7 +67,7 @@ nav a:hover {
 .about-hero {
     padding: 55px 20px;
     text-align: center;
-    background-color: #176b52;
+    background-color: #22afde;
     color: white;
 }
 
@@ -96,7 +96,7 @@ nav a:hover {
 
 .about-text h2,
 .why-fixmate h2 {
-    color: #176b52;
+    color: #0991cb;
 }
 
 .about-text p {
@@ -107,7 +107,7 @@ nav a:hover {
     flex: 1;
     text-align: center;
     font-size: 100px;
-    color: #176b52;
+    color: #28d9df;
 }
 
 
@@ -129,11 +129,11 @@ nav a:hover {
 
 .about-card i {
     font-size: 35px;
-    color: #176b52;
+    color: #16a9da;
 }
 
 .about-card h2 {
-    color: #176b52;
+    color: #1bbcc2;
 }
 
 
@@ -151,11 +151,11 @@ nav a:hover {
 
 .why-list i {
     font-size: 32px;
-    color: #176b52;
+    color: #219aaf;
 }
 
 .why-list h3 {
-    color: #176b52;
+    color: #10acb7;
 }
 
 
@@ -166,21 +166,21 @@ nav a:hover {
 }
 
 .about-cta h2 {
-    color: #176b52;
+    color: #1d8ecf;
 }
 
 .about-cta a {
     display: inline-block;
     margin-top: 15px;
     padding: 12px 22px;
-    background-color: #176b52;
+    background-color: #18a7ce;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .about-cta a:hover {
-    background-color: #10513e;
+    background-color: #1290b3;
 }
 
 .footer {
