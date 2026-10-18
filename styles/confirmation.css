@@ -58,3 +58,112 @@ nav a:hover {
     padding: 12px 22px;
     border-radius: 25px;
 }
+
+.confirmation-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 35px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px #ddd;
+}
+
+.success-icon {
+   font-size: 65px;
+   color: #176b52;
+   margin-bottom: 20px;
+}
+
+.confirmation-section h1 {
+    color: #176b52;
+}
+
+.confirmation-section > p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.confirmation-details {
+    margin: 25px 0;
+    padding: 20px;
+    background-color: #f3f8f5;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.confirmation-details h2 {
+    color: #176b52;
+    font-size: 20px;
+}
+
+.confirmation-details p {
+    line-height: 1.6;
+}
+
+.confirmation-btn {
+    display: block;
+    padding: 12px;
+    background-color: #176b52;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 18px;
+    color: #176b52;
+    text-decoration: none;
+}
+
+.footer {
+    background: #102e55;
+    color: white;
+    padding: 35px 6% 15px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-info h2 {
+    color: #1677ff;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #1677ff;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #49617e;
+    margin-top: 25px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+
+@media (max-width: 600px) {
+    .confirmation-section {
+        margin: 20px 12px;
+        padding: 22px;
+    }
+}
