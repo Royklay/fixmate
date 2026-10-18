@@ -227,6 +227,28 @@ nav a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    body {
+        padding: 0 2%;
+    }
+
+    header {
+        height: auto;
+        padding: 18px 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    nav {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .account {
+        gap: 15px;
+    }
+
     .about-content {
         flex-direction: column;
         text-align: center;
