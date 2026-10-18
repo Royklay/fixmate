@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.mini.css">
 </head>
 <body>
     <header>
@@ -21,5 +23,87 @@
         <a href="Signup.html" class="signup">Sign Up</a>
     </div>
 </header>
+<main class="login-page">
+
+    <section class="login-section">
+
+        <div class="login-icon">
+            <i class="fa-solid fa-user-lock"></i>
+        </div>
+
+        <h1>Welcome Back!</h1>
+        <p>Log in to your FixMate account.</p>
+
+        <form >
+
+            <label for="email">Email Address</label>
+
+            <div class="login-input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+            </div>
+
+            <label for="password">Password</label>
+
+            <div class="login-input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" name="password"
+                       placeholder="Enter your password" required>
+            </div>
+
+            <label for="account-type">Login As</label>
+
+            <select id="account-type" name="account-type" required>
+                <option value="">Choose account type</option>
+                <option value="customer">Customer</option>
+                <option value="professional">Professional</option>
+            </select>
+
+            <button type="submit">Log In</button>
+
+        </form>
+
+        <p class="signup-text">
+            Don't have an account?
+            <a href="signup.html">Sign Up</a>
+        </p>
+
+        <a href="index.html" class="back-home">
+            <i class="fa-solid fa-arrow-left"></i> Back to Home
+        </a>
+
+    </section>
+
+</main>
+<footer class="footer">
+    <div class="footer-content">
+
+        <div class="footer-info">
+            <h2>FixMate</h2>
+            <p>You call. They come.</p>
+            <p>Find trusted professionals right at your door.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="proffesional.html">Become a Pro</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Account</h3>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="profile.html">Provider Profile</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 FixMate. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>

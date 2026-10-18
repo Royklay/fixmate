@@ -58,3 +58,170 @@ nav a:hover {
     padding: 12px 22px;
     border-radius: 25px;
 }
+
+/* Login Page */
+.login-page {
+    padding: 45px 15px;
+    background-color: #f3f8ff;
+}
+
+/* Login Form */
+.login-section {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: white;
+    border: 1px solid #d5e7f8;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #dce6f0;
+}
+
+/* Heading and Icon */
+.login-section h1 {
+    color: #234c70;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-section > p {
+    color: #666;
+    text-align: center;
+}
+
+.login-icon {
+    text-align: center;
+    font-size: 45px;
+    color: #3986c5;
+    margin-bottom: 15px;
+}
+
+/* Form */
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.login-section label {
+    color: #234c70;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.login-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 12px;
+    border: 1px solid #cbdbea;
+    border-radius: 5px;
+}
+
+.login-input i {
+    color: #3986c5;
+}
+
+.login-input input {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.login-section select {
+    padding: 12px;
+    border: 1px solid #cbdbea;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.login-section button {
+    margin-top: 15px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3986c5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-section button:hover {
+    background-color: #234c70;
+}
+
+/* Links */
+.login-section .signup-text {
+    margin-top: 22px;
+}
+
+.signup-text a,
+.back-home {
+    color: #3986c5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #102e55;
+    color: white;
+    padding: 35px 6% 15px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-info h2 {
+    color: #1677ff;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #1677ff;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #49617e;
+    margin-top: 25px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login-section {
+        padding: 25px 20px;
+    }
+
+    .login-page {
+        padding: 25px 12px;
+    }
+}
