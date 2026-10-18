@@ -131,9 +131,10 @@ button {
     margin: 8px 18px;
 }
 
-.help button {
+.help a {
     background: white;
     color: #146bea;
+    border-radius: 25px;
 }
 
 /* Footer */
