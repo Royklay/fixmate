@@ -59,3 +59,147 @@ nav a:hover {
     border-radius: 25px;
 }
 
+.about-page {
+    color: #333;
+}
+
+
+.about-hero {
+    padding: 55px 20px;
+    text-align: center;
+    background-color: #176b52;
+    color: white;
+}
+
+.about-hero h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.about-hero p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 8%;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2,
+.why-fixmate h2 {
+    color: #176b52;
+}
+
+.about-text p {
+    line-height: 1.8;
+}
+
+.about-icon {
+    flex: 1;
+    text-align: center;
+    font-size: 100px;
+    color: #176b52;
+}
+
+
+.about-mission {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 40px 8%;
+    background-color: #f3f8f5;
+}
+
+.about-card {
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.about-card i {
+    font-size: 35px;
+    color: #176b52;
+}
+
+.about-card h2 {
+    color: #176b52;
+}
+
+
+.why-fixmate {
+    padding: 45px 8%;
+    text-align: center;
+}
+
+.why-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.why-list i {
+    font-size: 32px;
+    color: #176b52;
+}
+
+.why-list h3 {
+    color: #176b52;
+}
+
+
+.about-cta {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e5f2eb;
+}
+
+.about-cta h2 {
+    color: #176b52;
+}
+
+.about-cta a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background-color: #176b52;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-cta a:hover {
+    background-color: #10513e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-mission,
+    .why-list {
+        grid-template-columns: 1fr;
+    }
+
+    .about-hero h1 {
+        font-size: 28px;
+    }
+
+    .about-icon {
+        font-size: 75px;
+    }
+}
